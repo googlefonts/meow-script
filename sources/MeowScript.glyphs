@@ -5,7 +5,7 @@ abcdefghijklmnopqrstuvwxyz,
 ABCDEFGHIJKLMNOPQRSTUVWXYZ,
 "/icircumflex.ss01"
 );
-copyright = "Copyright 2015 The Comforter Project Authors (https://github.com/googlefonts/meow-script)";
+copyright = "Copyright 2015 The Meow Script Project Authors (https://github.com/googlefonts/meow-script)";
 customParameters = (
 {
 name = licenseURL;
