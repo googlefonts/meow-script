@@ -2,7 +2,8 @@
 .appVersion = "1352";
 DisplayStrings = (
 abcdefghijklmnopqrstuvwxyz,
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ABCDEFGHIJKLMNOPQRSTUVWXYZ,
+"/icircumflex.ss01"
 );
 copyright = "Copyright 2015 The Comforter Project Authors (https://github.com/googlefonts/meow-script)";
 customParameters = (
@@ -87,7 +88,7 @@ name = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	sub i by idotaccent;\012	language CRT;\012	sub i by idotaccent;\012	language KAZ;\012	sub i by idotaccent;\012	language TAT;\012	sub i by idotaccent;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT;\012} locl_latn_2;\012";
+code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	language CRT;\012	language KAZ;\012	language TAT;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT;\012} locl_latn_2;\012";
 name = locl;
 },
 {
@@ -356,6 +357,17 @@ width = 200;
 );
 note = space;
 unicode = 0020;
+},
+{
+glyphname = nbspace;
+layers = (
+{
+layerId = "466AD7DC-B026-4005-940F-6404FDF7EB07";
+width = 200;
+}
+);
+widthMetricsKey = space;
+unicode = 00A0;
 },
 {
 glyphname = A;
@@ -114614,23 +114626,19 @@ width = 296;
 {
 color = 11;
 glyphname = icircumflex.ss01;
-lastChange = "2021-10-05 05:20:41 +0000";
+lastChange = "2021-10-05 06:10:30 +0000";
 layers = (
 {
-background = {
 components = (
 {
-name = dotlessi.ss01;
-}
-);
-};
-components = (
+name = idotless.ss01;
+},
 {
-name = dotlessi.ss01;
+name = circumflexcomb;
 }
 );
 layerId = "466AD7DC-B026-4005-940F-6404FDF7EB07";
-width = 270;
+width = 296;
 }
 );
 note = icircumflex;
