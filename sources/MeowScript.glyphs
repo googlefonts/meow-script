@@ -277,6 +277,17 @@ width = 192;
 note = CR;
 },
 {
+glyphname = .null;
+lastChange = "2021-10-05 05:03:06 +0000";
+layers = (
+{
+layerId = "466AD7DC-B026-4005-940F-6404FDF7EB07";
+width = 0;
+}
+);
+note = NULL;
+},
+{
 glyphname = space;
 lastChange = "2021-09-02 07:14:54 +0000";
 layers = (
@@ -118433,31 +118444,11 @@ layerId = "466AD7DC-B026-4005-940F-6404FDF7EB07";
 width = 311;
 }
 );
-},
-{
-glyphname = NULL;
-lastChange = "2021-09-02 07:14:54 +0000";
-layers = (
-{
-layerId = "466AD7DC-B026-4005-940F-6404FDF7EB07";
-width = 0;
-}
-);
-note = NULL;
 }
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = "Meow Formal";
-},
-{
-name = postscriptFontName;
-value = "Meow-Formal";
-}
-);
+interpolationWeight = 400;
 instanceInterpolations = {
 "466AD7DC-B026-4005-940F-6404FDF7EB07" = 1;
 };
