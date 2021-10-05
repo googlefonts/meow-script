@@ -5,7 +5,7 @@ abcdefghijklmnopqrstuvwxyz,
 ABCDEFGHIJKLMNOPQRSTUVWXYZ,
 "/icircumflex.ss01"
 );
-copyright = "Copyright 2015 The Meow Script Project Authors (https://github.com/googlefonts/meow-script)";
+copyright = "Copyright 2017 The Meow Script Project Authors (https://github.com/googlefonts/meow-script)";
 customParameters = (
 {
 name = licenseURL;
@@ -168,6 +168,48 @@ alignmentZones = (
 );
 ascender = 610;
 capHeight = 560;
+customParameters = (
+{
+name = typoAscender;
+value = 830;
+},
+{
+name = typoDescender;
+value = -370;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 830;
+},
+{
+name = hheaDescender;
+value = -370;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 830;
+},
+{
+name = winDescent;
+value = 370;
+},
+{
+name = strikeoutPosition;
+value = 174;
+},
+{
+name = strikeoutSize;
+value = 50;
+}
+);
 descender = -370;
 guideLines = (
 {
@@ -225949,5 +225991,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 2;
+versionMinor = 3;
 }
