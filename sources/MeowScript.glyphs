@@ -17,7 +17,8 @@ DisplayStrings = (
 "/Acaron.ss03",
 "/Oacute.ss03",
 "/O.ss03/Odieresis.ss03",
-"ÐØ/dcroat.titl/commercialMinusSign/commercialMinusSign.titl \012\012"
+"ÐØ/dcroat.titl/commercialMinusSign/commercialMinusSign.titl \012\012",
+"/strokeshortcomb/Dcroat.titl"
 );
 classes = (
 {
@@ -70591,7 +70592,7 @@ width = 458;
 {
 color = 5;
 glyphname = Dcroat.titl;
-lastChange = "2021-10-12 07:29:17 +0000";
+lastChange = "2021-10-13 12:01:00 +0000";
 layers = (
 {
 components = (
@@ -70599,8 +70600,8 @@ components = (
 name = D.titl;
 },
 {
-name = strokeshortcomb.titl;
-transform = "{1, 0, 0, 1, 0, 45}";
+name = strokeshortcomb;
+transform = "{1, 0, 0, 1, 45, 126}";
 }
 );
 layerId = "466AD7DC-B026-4005-940F-6404FDF7EB07";
