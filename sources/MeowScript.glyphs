@@ -18,7 +18,8 @@ DisplayStrings = (
 "/Oacute.ss03",
 "/O.ss03/Odieresis.ss03",
 "ÐØ/dcroat.titl/commercialMinusSign/commercialMinusSign.titl \012\012",
-"/strokeshortcomb/Dcroat.titl"
+"/strokeshortcomb/Dcroat.titl",
+"/dcroat.titl/dong.titl"
 );
 classes = (
 {
@@ -174972,7 +174973,7 @@ unicode = 00A5;
 },
 {
 glyphname = dong.titl;
-lastChange = "2021-10-12 07:29:17 +0000";
+lastChange = "2021-10-13 12:11:23 +0000";
 layers = (
 {
 components = (
@@ -174980,8 +174981,8 @@ components = (
 name = dcroat.titl;
 },
 {
-name = macronbelowcomb.titl;
-transform = "{1, 0, 0, 1, 23, 0}";
+name = macronbelowcomb;
+transform = "{1, 0, 0, 1, 91, 0}";
 }
 );
 layerId = "466AD7DC-B026-4005-940F-6404FDF7EB07";
