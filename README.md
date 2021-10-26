@@ -1,6 +1,6 @@
-# Hurricane
+# Meow Script
 
-Meow Script works is a monoline font with a number of alternate forms. It works eclectically and harmoniously to add a fun, whimsy look to your posters, ads, invitations and similar designs.
+Meow Script works is a monoline font with a number of alternate forms in six stylistic sets. It works eclectically and harmoniously to add a fun, whimsy look to your posters, ads, invitations and similar designs.
 
 ![Sample Image](Documentation/image1.png)
 
